@@ -15,7 +15,7 @@ $(document).ready(function() {
                 dataType: 'html'
             }).done(function(ketqua) {
                 if (ketqua == '1') {
-                    header('Location:../index.php');
+                    window.location.href = window.location.href + '/../index.php';
                 } else {
                     $('.alert-login').html('<h3>Thông báo !</h3><p>Tên đăng nhập hoặc mật khẩu không chính xác</p>').fadeIn().delay(1000).fadeOut('slow');
                 }
