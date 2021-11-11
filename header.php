@@ -21,7 +21,7 @@
 						<li class=" dropdown">
         				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Xin chào Admin</a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#">Đăng xuất</a>
+				          <a class="dropdown-item" href="logout.php">Đăng xuất</a>
 				          <a class="dropdown-item" href="#">Tài khoản</a>
 				        </div>
       					</li>
